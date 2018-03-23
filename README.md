@@ -42,4 +42,4 @@ Extracting:
 
 ## License
 
-This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU License - see the [LICENSE.md](https://github.com/dogan48/Steganography-With-EMD/blob/master/LICENSE) file for details
