@@ -13,12 +13,12 @@ Using Mod 5 and Mod 7.
 After compiling
 
 Options
-
+```
  -c,--coverImage <arg>    Cover or Stego image file path.
  -m,--method <arg>        Enter method like embed or extract.
  -o,--outputImage <arg>   Output image file path.
  -s,--secretImage <arg>   Secret image file path.
-
+```
 
 Embedding: 
 
