@@ -1,4 +1,4 @@
-# Steganography With Exploiting Modification Direction (EMD)
+# Steganography With Exploiting Modification Direction
 
 This project make image steganography with exploiting modification direction method.
 Using Mod 5 and Mod 7.
@@ -18,6 +18,7 @@ Options
  -m,--method <arg>        Enter method like embed or extract.
  -o,--outputImage <arg>   Output image file path.
  -s,--secretImage <arg>   Secret image file path.
+
 
 Embedding: 
 
