@@ -7,7 +7,7 @@ Using Mod 5 and Mod 7.
 # Getting Started
 
 ```
--git clone https://github.com/dogan48/Steganography-With-EMD.git
+ git clone https://github.com/dogan48/Steganography-With-EMD.git
  and compile it.
  javac -cp ".:./commons-cli-1.4.jar" EmdApplication.java
  
