@@ -8,7 +8,9 @@ Using Mod 5 and Mod 7.
 
 ```
 -git clone https://github.com/dogan48/Steganography-With-EMD.git
- and compile
+ and compile it.
+ javac -cp ".:./commons-cli-1.4.jar" EmdApplication.java
+ 
 ```
 After compiling
 
@@ -24,7 +26,7 @@ Embedding:
 
 ```
 
--c C:/coverImage.bmp -s C:/secretImage.bmp -o C:/stegoImage.bmp -m embed
+java -cp ".:./commons-cli-1.4.jar" EmdApplication -c ./coverImage.bmp -s ./secretImage.bmp -o ./stegoImage.bmp -m embed
 
 ```
 
@@ -32,12 +34,13 @@ Extracting:
 
 ```
 
--c C:/stegoImage.bmp -o C:/secretImage.bmp -m extract
+java -cp ".:./commons-cli-1.4.jar" EmdApplication  -c ./stegoImage.bmp -o ./secretImage.bmp -m extract
 
 ```
 ## Authors
 
 * **Hadi Doğan Kocabıyık** [dogan48](https://github.com/dogan48)
+* **Burak Aydın** [61baydin](https://github.com/61baydin)
 
 
 ## License
